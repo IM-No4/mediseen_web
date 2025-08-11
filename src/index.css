@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #ffffff;
+    color: #0f172a;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  /* Button Components */
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-soft hover:shadow-medium focus:outline-none focus:ring-4 focus:ring-primary-500/20;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-primary-600 font-semibold py-4 px-8 rounded-xl border-2 border-primary-600 transition-all duration-300 transform hover:scale-105 shadow-soft hover:shadow-medium focus:outline-none focus:ring-4 focus:ring-primary-500/20;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 hover:bg-accent-600 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-soft hover:shadow-medium focus:outline-none focus:ring-4 focus:ring-accent-500/20;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-primary-50 text-primary-600 font-semibold py-4 px-8 rounded-xl transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary-500/20;
+  }
+  
+  /* Layout Components */
+  .section-padding {
+    @apply py-20 lg:py-32 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto;
+  }
+  
+  /* Background Components */
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-500 via-primary-600 to-primary-700;
+  }
+
+  .gradient-bg-light {
+    @apply bg-gradient-to-br from-primary-50 via-white to-secondary-50;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent;
+  }
+
+  .gradient-text-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 bg-clip-text text-transparent;
+  }
+  
+  /* Card Components */
+  .healthcare-card {
+    @apply bg-white rounded-2xl shadow-soft border border-gray-100 hover:shadow-medium transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .healthcare-card-elevated {
+    @apply bg-white rounded-2xl shadow-medium border border-gray-100 hover:shadow-large transition-all duration-300 hover:-translate-y-2;
+  }
+
+  .healthcare-card-glow {
+    @apply bg-white rounded-2xl shadow-glow border border-primary-200 hover:shadow-glow-lg transition-all duration-300;
+  }
+  
+  /* Icon Components */
+  .healthcare-icon {
+    @apply w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center text-white shadow-medium;
+  }
+
+  .healthcare-icon-light {
+    @apply w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center text-primary-600 shadow-soft;
+  }
+
+  .healthcare-icon-accent {
+    @apply w-16 h-16 bg-gradient-to-br from-accent-500 to-accent-600 rounded-2xl flex items-center justify-center text-white shadow-medium;
+  }
+  
+  /* Pattern Components */
+  .healthcare-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(20, 184, 166, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, rgba(20, 184, 166, 0.08) 0%, transparent 50%);
+  }
+
+  .healthcare-pattern-dense {
+    background-image: 
+      radial-gradient(circle at 20% 20%, rgba(20, 184, 166, 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(20, 184, 166, 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(20, 184, 166, 0.03) 0%, transparent 60%);
+  }
+
+  /* Badge Components */
+  .badge-primary {
+    @apply inline-flex items-center space-x-2 bg-primary-50 border border-primary-200 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold;
+  }
+
+  .badge-accent {
+    @apply inline-flex items-center space-x-2 bg-accent-50 border border-accent-200 text-accent-700 px-4 py-2 rounded-full text-sm font-semibold;
+  }
+
+  .badge-success {
+    @apply inline-flex items-center space-x-2 bg-success-50 border border-success-200 text-success-700 px-4 py-2 rounded-full text-sm font-semibold;
+  }
+
+  /* Text Components */
+  .text-display {
+    @apply font-display font-bold;
+  }
+
+  .text-body {
+    @apply font-body;
+  }
+
+  /* Animation Classes */
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .animate-on-scroll.animate {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Special Effects */
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+
+  .glass-effect-dark {
+    @apply bg-gray-900/80 backdrop-blur-md border border-gray-700/20;
+  }
+
+  /* Responsive Typography */
+  .responsive-heading {
+    @apply text-4xl sm:text-5xl lg:text-6xl xl:text-7xl;
+  }
+
+  .responsive-subheading {
+    @apply text-xl sm:text-2xl lg:text-3xl;
+  }
+
+  .responsive-body {
+    @apply text-base sm:text-lg lg:text-xl;
+  }
+} 
