@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaApple, FaGooglePlay, FaQrcode, FaDownload, FaStar, FaUsers, FaClock, FaShieldAlt, FaHeart, FaMobile, FaTablet, FaLaptop, FaCheckCircle } from 'react-icons/fa';
-import mediseenLogo from '../assets/icons/mediSeen.png';
+import medicooLogo from '../assets/icons/medicoo.png';
 
 const DownloadApp = () => {
   const appFeatures = [
@@ -74,7 +74,7 @@ const DownloadApp = () => {
           </div>
           
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-3 animate-fade-in-up">
-            Get <span className="gradient-text">Mediseen</span> on Your Device
+            Get <span className="gradient-text">Medicoo</span> on Your Device
           </h2>
           <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Experience comprehensive healthcare at your fingertips. Download our mobile app to access medicine delivery, 

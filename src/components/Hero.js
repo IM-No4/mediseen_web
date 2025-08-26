@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaDownload, FaPlay, FaUserMd, FaHeart, FaShieldAlt, FaClock, FaCheckCircle, FaStar } from 'react-icons/fa';
-import mediseenLogo from '../assets/icons/mediSeen.png';
+import medicooLogo from '../assets/icons/medicoo.png';
 
 const Hero = () => {
   const scrollToDownload = () => {
@@ -84,13 +84,13 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
-              <button 
+              {/* <button 
                 onClick={scrollToDownload}
                 className="btn-primary flex items-center justify-center space-x-3 hover:scale-105 transition-transform duration-300"
               >
                 <FaDownload className="text-lg" />
                 <span>Download App</span>
-              </button>
+              </button> */}
               {/* <button className="btn-secondary flex items-center justify-center space-x-3">
                 <FaPlay className="text-lg" />
                 <span>Watch Demo</span>
@@ -132,9 +132,9 @@ const Hero = () => {
                     <div className="absolute top-0 left-0 right-0 h-16 bg-white/10 backdrop-blur-md flex items-center justify-between px-4">
                       <div className="flex items-center space-x-2">
                         <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                          <img src={mediseenLogo} alt="Mediseen Logo" className="w-6 h-6 p-1" />
+                          <img src={medicooLogo} alt="Medicoo Logo" className="w-6 h-6 p-1" />
                         </div>
-                        <span className="text-white font-semibold text-sm">Mediseen</span>
+                        <span className="text-white font-semibold text-sm">Medicoo</span>
                       </div>
                       <div className="w-6 h-6 bg-white/20 rounded-full"></div>
                     </div>

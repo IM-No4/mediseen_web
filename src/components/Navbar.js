@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Mediseen Logo" className="w-20 h-12" />
+            <img src={logo} alt="Medicoo Logo" className="w-20 h-12" />
           </div>
 
           {/* Desktop Navigation */}
@@ -40,10 +40,10 @@ const Navbar = () => {
               Features
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
+            {/* <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
               Download App
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </a> */}
             <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
@@ -91,9 +91,9 @@ const Navbar = () => {
                 <a href="#features" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
                   Features
                 </a>
-                <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
+                {/* <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
                   Download App
-                </a>
+                </a> */}
                 <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2">
                   Contact
                 </a>
@@ -106,7 +106,7 @@ const Navbar = () => {
                     <FaPhone className="text-primary-600" />
                   </div>
                   <div>
-                    <div className="text-gray-900 font-semibold">+91 98765 43210</div>
+                    <div className="text-gray-900 font-semibold">+91 79052 75048</div>
                     <div className="text-gray-500 text-sm">24/7 Healthcare Support</div>
                   </div>
                 </div>
@@ -115,16 +115,16 @@ const Navbar = () => {
                     <FaEnvelope className="text-primary-600" />
                   </div>
                   <div>
-                    <div className="text-gray-900 font-semibold">support@mediseen.com</div>
+                    <div className="text-gray-900 font-semibold">support@medicoo.com</div>
                     <div className="text-gray-500 text-sm">Get Help Anytime</div>
                   </div>
                 </div>
               </div>
 
               {/* CTA Button Mobile */}
-              <button className="btn-primary w-full mt-4">
+              {/* <button className="btn-primary w-full mt-4">
                 Download App Now
-              </button>
+              </button> */}
             </div>
           </div>
         )}

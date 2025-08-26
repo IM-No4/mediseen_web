@@ -8,7 +8,7 @@ const Testimonials = () => {
       role: "Cardiologist",
       location: "Mumbai",
       rating: 5,
-      text: "Mediseen has revolutionized healthcare delivery. The platform's commitment to quality and patient safety is exceptional. As a healthcare provider, I highly recommend their services.",
+      text: "Medicoo has revolutionized healthcare delivery. The platform's commitment to quality and patient safety is exceptional. As a healthcare provider, I highly recommend their services.",
       avatar: "PS",
       verified: true
     },
@@ -26,7 +26,7 @@ const Testimonials = () => {
       role: "General Physician",
       location: "Bangalore",
       rating: 5,
-      text: "As a doctor, I appreciate how Mediseen maintains strict quality standards. The prescription verification process is thorough and the platform ensures patient safety.",
+      text: "As a doctor, I appreciate how Medicoo maintains strict quality standards. The prescription verification process is thorough and the platform ensures patient safety.",
       avatar: "MP",
       verified: true
     },
@@ -53,7 +53,7 @@ const Testimonials = () => {
       role: "Patient",
       location: "Pune",
       rating: 5,
-      text: "I've been using Mediseen for 8 months now. The medicine reminders and health tracking features are incredibly helpful for managing my diabetes effectively.",
+      text: "I've been using Medicoo for 8 months now. The medicine reminders and health tracking features are incredibly helpful for managing my diabetes effectively.",
       avatar: "KS",
       verified: true
     }
@@ -84,7 +84,7 @@ const Testimonials = () => {
           </h2> 
           <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Don't just take our word for it. Here's what our satisfied patients and healthcare professionals 
-            have to say about their experience with Mediseen.
+            have to say about their experience with Medicoo.
           </p>
         </div>
 

@@ -14,7 +14,7 @@ const MainLayout = () => {
       <Hero />
       <Services />
       <Features />
-      <DownloadApp />
+      {/* <DownloadApp /> */}
       {/* <Testimonials /> */}
       <Footer />
     </div>

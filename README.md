@@ -1,6 +1,6 @@
-# Mediseen - Healthcare Website
+# Medicoo - Healthcare Website
 
-A beautiful, modern website for Mediseen - your trusted healthcare partner. Built with React and Tailwind CSS.
+A beautiful, modern website for Medicoo - your trusted healthcare partner. Built with React and Tailwind CSS.
 
 ## Features
 
@@ -30,7 +30,7 @@ A beautiful, modern website for Mediseen - your trusted healthcare partner. Buil
 
 1. Navigate to the project directory:
 ```bash
-cd mediseen
+cd medicoo
 ```
 
 2. Install dependencies:
@@ -56,7 +56,7 @@ This creates an optimized production build in the `build` folder.
 ## Project Structure
 
 ```
-mediseen/
+medicoo/
 ├── public/
 │   ├── index.html
 │   └── manifest.json
@@ -81,7 +81,7 @@ mediseen/
 
 1. **Hero Section** - Eye-catching introduction with animated elements
 2. **Services** - Comprehensive healthcare services offered
-3. **Features** - Key benefits and why choose Mediseen
+3. **Features** - Key benefits and why choose Medicoo
 4. **Download App** - Mobile app download links and features
 5. **Testimonials** - Customer reviews and ratings
 6. **Footer** - Contact information and links
@@ -127,9 +127,9 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any questions or support, please contact:
-- Email: support@mediseen.com
-- Phone: +91 98765 43210
+- Email: support@medicoo.com
+- Phone: +91 79052 75048
 
 ---
 
-**Mediseen** - Your Trusted Healthcare Partner 
+**Medicoo** - Your Trusted Healthcare Partner 

@@ -14,7 +14,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="md:col-span-2 lg:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <img src={logo} alt="Mediseen Logo" className="w-16 h-10 lg:w-20 lg:h-12" />
+                <img src={logo} alt="Medicoo Logo" className="w-16 h-10 lg:w-20 lg:h-12" />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed text-sm">
                 Your trusted healthcare partner. We're committed to making healthcare accessible, affordable, 
@@ -45,19 +45,19 @@ const Footer = () => {
               
               {/* Social Media */}
               <div className="flex space-x-2 lg:space-x-3">
-                <a href="#" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.facebook.com/share/16xtDUuofT/?mibextid=wwXIfr" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaFacebook className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="#" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://x.com/medicoo_care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaTwitter className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="https://www.instagram.com/_mediseen_?igsh=MXFna29zaGs1YTdkbw==" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.instagram.com/medicoo_care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaInstagram className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="#" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.linkedin.com/company/medicoo-care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaLinkedin className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="#" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.youtube.com/@medicoo-care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaYoutube className="text-white text-xs lg:text-sm" />
                 </a>
               </div>
@@ -83,17 +83,17 @@ const Footer = () => {
                 <div>
                   <h4 className="text-primary-400 font-semibold mb-2 text-sm">Pharmacy Partners</h4>
                   <ul className="space-y-1">
-                    <li><a href="https://partners.mediseen.online/registration" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
-                    {/* <li><a href="https://play.google.com/store/apps/details?id=com.mediseen.storepartner" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">App For You</a></li> */}
+                    <li><a href="https://partners.medicoo.online/registration" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
+                    {/* <li><a href="https://play.google.com/store/apps/details?id=com.medicoo.storepartner" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">App For You</a></li> */}
                   </ul>
                 </div>
-                <div>
+                {/* <div>
                   <h4 className="text-primary-400 font-semibold mb-2 text-sm">Delivery Partners</h4>
                   <ul className="space-y-1">
-                    {/* <li><a href="https://deliverypartner.mediseen.online" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li> */}
+                    <li><a href="https://deliverypartner.medicoo.online" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
                     <li><a href="#" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">App For You</a></li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -108,7 +108,7 @@ const Footer = () => {
                     <FaPhone className="text-primary-600 text-xs" />
                   </div>
                   <div>
-                    <div className="text-white font-semibold text-sm">+91 98765 43210</div>
+                    <div className="text-white font-semibold text-sm">+91 79052 75048</div>
                     <div className="text-gray-400 text-xs">24/7 Support</div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const Footer = () => {
                     <FaEnvelope className="text-primary-600 text-xs" />
                   </div>
                   <div>
-                    <div className="text-white font-semibold text-sm">support@mediseen.com</div>
+                    <div className="text-white font-semibold text-sm">support@medicoo.com</div>
                     <div className="text-gray-400 text-xs">Get Help Anytime</div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ const Footer = () => {
               </div>
 
               {/* App Download Section */}
-              <div>
+              {/* <div>
                 <h4 className="text-primary-400 font-semibold mb-3 text-sm">Download Our App</h4>
                 <div className="space-y-2">
                   <button className="w-full flex items-center justify-center space-x-2 bg-black text-white px-3 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
@@ -151,7 +151,7 @@ const Footer = () => {
                     </div>
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-gray-400 text-xs flex flex-col md:flex-row justify-center md:justify-start gap-2 text-center md:text-left">
               <div className="mb-2 md:mb-0">
-                © {new Date().getFullYear()} Mediseen. All rights reserved.
+                © {new Date().getFullYear()} Medicoo. All rights reserved.
               </div>
               <div className="flex flex-wrap justify-center md:justify-start gap-2">
                 <a href="/privacy-policy" className="hover:text-white transition-colors duration-300">Privacy Policy</a>

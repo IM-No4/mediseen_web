@@ -89,14 +89,14 @@ const Features = () => {
         <div className="text-center mb-8">
           <div className="badge-accent mb-3">
             <FaStar className="text-accent-600" />
-            <span>Why Choose Mediseen</span>
+            <span>Why Choose Medicoo</span>
           </div>
           
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-3">
             Features That <span className="gradient-text">Set Us Apart</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Discover the innovative features that make Mediseen the preferred choice for healthcare. 
+            Discover the innovative features that make Medicoo the preferred choice for healthcare. 
             We combine technology with compassion to deliver exceptional healthcare experiences.
           </p>
         </div>

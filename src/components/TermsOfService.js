@@ -17,7 +17,7 @@ const TermsOfService = () => {
                 <h1 className="text-2xl sm:text-3xl font-display font-bold text-gray-900">
                   Terms of <span className="gradient-text">Service</span>
                 </h1>
-                <p className="text-gray-600 text-sm">Last updated: December 2024</p>
+                <p className="text-gray-600 text-sm">Last updated: August 2025</p>
               </div>
             </div>
             {/* if large device then show back to home else show arrow left */}
@@ -51,7 +51,7 @@ const TermsOfService = () => {
               Agreement to Terms
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              By accessing and using Mediseen's healthcare platform, you agree to be bound by these Terms of Service. 
+              By accessing and using Medicoo's healthcare platform, you agree to be bound by these Terms of Service. 
               These terms govern your use of our services, including medicine delivery, doctor consultations, and other healthcare services.
             </p>
             <div className="grid md:grid-cols-2 gap-4">
@@ -259,7 +259,7 @@ const TermsOfService = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">Email Us</div>
-                  <div className="text-gray-600 text-sm">legal@mediseen.com</div>
+                  <div className="text-gray-600 text-sm">legal@medicoo.com</div>
                 </div>
               </div>
               <div className="flex items-center space-x-4 p-4 bg-success-50 rounded-xl">
@@ -268,7 +268,7 @@ const TermsOfService = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">Call Us</div>
-                  <div className="text-gray-600 text-sm">+91 98765 43210</div>
+                  <div className="text-gray-600 text-sm">+91 79052 75048</div>
                 </div>
               </div>
             </div>
