@@ -39,7 +39,7 @@ const Footer = () => {
                   <div className="w-5 h-5 lg:w-6 lg:h-6 bg-accent-100 rounded-full flex items-center justify-center">
                     <FaHeart className="text-accent-600 text-xs" />
                   </div>
-                  <span className="text-xs text-gray-300">Patient-First</span>
+                  <span className="text-xs text-gray-300">Compassionate Care</span>
                 </div>
               </div>
               
