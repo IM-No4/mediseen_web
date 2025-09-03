@@ -48,16 +48,16 @@ const Footer = () => {
                 <a href="https://www.facebook.com/share/16xtDUuofT/?mibextid=wwXIfr" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaFacebook className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="https://x.com/medicoo_care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://x.com/MedicooOfficial" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaTwitter className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="https://www.instagram.com/medicoo_care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.instagram.com/medicoo_official" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaInstagram className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="https://www.linkedin.com/company/medicoo-care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.linkedin.com/company/medicoo-official" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaLinkedin className="text-white text-xs lg:text-sm" />
                 </a>
-                <a href="https://www.youtube.com/@medicoo-care" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
+                <a href="https://www.youtube.com/@medicoo-official" target="_blank" className="w-7 h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-md rounded-lg flex items-center justify-center hover:bg-primary-600 transition-all duration-300">
                   <FaYoutube className="text-white text-xs lg:text-sm" />
                 </a>
               </div>
@@ -117,7 +117,7 @@ const Footer = () => {
                     <FaEnvelope className="text-primary-600 text-xs" />
                   </div>
                   <div>
-                    <div className="text-white font-semibold text-sm">support@medicoo.com</div>
+                    <div className="text-white font-semibold text-sm">support@medicoo.in</div>
                     <div className="text-gray-400 text-xs">Get Help Anytime</div>
                   </div>
                 </div>
