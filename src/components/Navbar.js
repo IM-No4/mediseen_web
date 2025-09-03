@@ -55,7 +55,7 @@ const Navbar = () => {
             {/* Trust Badge */}
             <div className="flex items-center space-x-2 bg-success-50 border border-success-200 text-success-700 px-4 py-2 rounded-full text-sm font-semibold">
               <FaShieldAlt className="text-success-600" />
-              <span>Licensed & Secure</span>
+              <span>Secure & Trusted</span>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
               {/* Trust Badge Mobile */}
               <div className="flex items-center space-x-2 bg-success-50 border border-success-200 text-success-700 px-4 py-3 rounded-xl text-sm font-semibold">
                 <FaShieldAlt className="text-success-600" />
-                <span>Licensed & Secure Healthcare Platform</span>
+                <span>Secure & Trusted Healthcare Platform</span>
               </div>
 
               {/* Navigation Links */}

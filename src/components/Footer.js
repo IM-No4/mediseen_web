@@ -27,7 +27,7 @@ const Footer = () => {
                   <div className="w-5 h-5 lg:w-6 lg:h-6 bg-success-100 rounded-full flex items-center justify-center">
                     <FaShieldAlt className="text-success-600 text-xs" />
                   </div>
-                  <span className="text-xs text-gray-300">Licensed & Secure</span>
+                  <span className="text-xs text-gray-300">Secure & Trusted</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-5 h-5 lg:w-6 lg:h-6 bg-primary-100 rounded-full flex items-center justify-center">
