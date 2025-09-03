@@ -208,7 +208,7 @@ const PrivacyPolicy = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">Email Us</div>
-                  <div className="text-gray-600 text-sm">privacy@medicoo.com</div>
+                  <div className="text-gray-600 text-sm">privacy@medicoo.in</div>
                 </div>
               </div>
               <div className="flex items-center space-x-4 p-4 bg-success-50 rounded-xl">

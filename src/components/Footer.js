@@ -83,14 +83,14 @@ const Footer = () => {
                 <div>
                   <h4 className="text-primary-400 font-semibold mb-2 text-sm">Pharmacy Partners</h4>
                   <ul className="space-y-1">
-                    <li><a href="https://partners.medicoo.online/registration" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
+                    <li><a href="https://partners.medicoo.in/registration" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
                     {/* <li><a href="https://play.google.com/store/apps/details?id=com.medicoo.storepartner" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">App For You</a></li> */}
                   </ul>
                 </div>
                 {/* <div>
                   <h4 className="text-primary-400 font-semibold mb-2 text-sm">Delivery Partners</h4>
                   <ul className="space-y-1">
-                    <li><a href="https://deliverypartner.medicoo.online" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
+                    <li><a href="https://deliverypartner.medicoo.in" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">Partner With Us</a></li>
                     <li><a href="#" className="text-gray-300 hover:text-white transition-colors duration-300 text-xs">App For You</a></li>
                   </ul>
                 </div> */}
