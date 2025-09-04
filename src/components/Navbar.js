@@ -115,7 +115,7 @@ const Navbar = () => {
                     <FaEnvelope className="text-primary-600" />
                   </div>
                   <div>
-                    <div className="text-gray-900 font-semibold">support@medicoo.com</div>
+                    <div className="text-gray-900 font-semibold">support@medicoo.in</div>
                     <div className="text-gray-500 text-sm">Get Help Anytime</div>
                   </div>
                 </div>
