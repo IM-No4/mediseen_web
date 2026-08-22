@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Medicoo Logo" className="w-20 h-12" />
+            <img src={logo} alt="Medicoo Logo" className="h-14" />
           </div>
 
           {/* Desktop Navigation */}

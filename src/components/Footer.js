@@ -14,7 +14,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="md:col-span-2 lg:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <img src={logo} alt="Medicoo Logo" className="w-16 h-10 lg:w-20 lg:h-12" />
+                <img src={logo} alt="Medicoo Logo" className="h-10 lg:lg:h-12" />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed text-sm">
                 Your trusted healthcare partner. We're committed to making healthcare accessible, affordable, 
@@ -162,6 +162,9 @@ const Footer = () => {
             <div className="text-gray-400 text-xs flex flex-col md:flex-row justify-center md:justify-start gap-2 text-center md:text-left">
               <div className="mb-2 md:mb-0">
                 © {new Date().getFullYear()} Medicoo. All rights reserved.
+              </div>
+              <div className="mb-2 md:mb-0">
+                MEDICOOTECH PRIVATE LIMITED | CIN: U86900HR2026PTC148992
               </div>
               <div className="flex flex-wrap justify-center md:justify-start gap-2">
                 <a href="/privacy-policy" className="hover:text-white transition-colors duration-300">Privacy Policy</a>

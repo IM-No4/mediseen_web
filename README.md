@@ -127,7 +127,7 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any questions or support, please contact:
-- Email: support@medicoo.com
+- Email: support@medicoo.in
 - Phone: +91 79052 75048
 
 ---
