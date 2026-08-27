@@ -17,7 +17,7 @@ const TermsOfService = () => {
                 <h1 className="text-2xl sm:text-3xl font-display font-bold text-gray-900">
                   Terms of <span className="gradient-text">Service</span>
                 </h1>
-                <p className="text-gray-600 text-sm">Last updated: August 2025</p>
+                <p className="text-gray-600 text-sm">Last updated: August 2026</p>
               </div>
             </div>
             {/* if large device then show back to home else show arrow left */}
@@ -218,7 +218,7 @@ const TermsOfService = () => {
                 <FaExclamationTriangle className="text-warning-600 text-lg mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900 text-sm mb-1">Medical Disclaimer</h4>
-                  <p className="text-gray-600 text-sm">Our services are not a substitute for professional medical advice. Always consult with qualified healthcare providers for medical decisions.</p>
+                  <p className="text-gray-600 text-sm">Medicoo is not a medical device and does not provide medical advice, diagnosis, or treatment. The app does not diagnose, treat, cure, or prevent any disease or medical condition. Content and features are provided for informational and convenience purposes only (such as ordering medicines and tracking self-reported wellness data) and are not a substitute for professional medical advice. Always consult a qualified healthcare provider for any medical decisions, and seek immediate medical attention in an emergency.</p>
                 </div>
               </div>
               

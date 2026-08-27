@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaShieldAlt, FaLock, FaEye, FaUser, FaDatabase, FaCookieBite, FaEnvelope, FaPhone, FaArrowLeft } from 'react-icons/fa';
+import { FaShieldAlt, FaLock, FaEye, FaUser, FaDatabase, FaCookieBite, FaEnvelope, FaPhone, FaArrowLeft, FaExclamationTriangle, FaClock } from 'react-icons/fa';
 
 const PrivacyPolicy = () => {
   return (
@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
                 <h1 className="text-2xl sm:text-3xl font-display font-bold text-gray-900">
                   Privacy <span className="gradient-text">Policy</span>
                 </h1>
-                <p className="text-gray-600 text-sm">Last updated: August 2025</p>
+                <p className="text-gray-600 text-sm">Last updated: August 2026</p>
               </div>
             </div>
             {/* if large device then show back to home else show arrow left */}
@@ -68,6 +68,21 @@ const PrivacyPolicy = () => {
                   <div className="font-semibold text-gray-900 text-sm">HIPAA Compliant</div>
                   <div className="text-gray-600 text-xs">Following healthcare privacy standards</div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Medical Disclaimer */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <div className="bg-white rounded-2xl shadow-soft border border-gray-100 p-8">
+            <div className="flex items-start space-x-3 p-4 bg-warning-50 rounded-xl">
+              <FaExclamationTriangle className="text-warning-600 text-lg mt-1 flex-shrink-0" />
+              <div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Medical Disclaimer</h4>
+                <p className="text-gray-600 text-sm">
+                  Medicoo is not a medical device and does not provide medical advice, diagnosis, or treatment. The app does not diagnose, treat, cure, or prevent any disease or medical condition. Content and features (such as medicine ordering and self-reported health tracking) are provided for informational and convenience purposes only and are not a substitute for professional medical advice. Always consult a qualified healthcare provider for medical decisions, and seek immediate medical attention in an emergency.
+                </p>
               </div>
             </div>
           </div>
@@ -154,6 +169,34 @@ const PrivacyPolicy = () => {
                     <li className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-success-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-600 text-sm">Regular security audits</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Data Retention */}
+            <div className="bg-white rounded-2xl shadow-soft border border-gray-100 p-6">
+              <div className="flex items-start space-x-4 mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-warning-500 to-warning-600 rounded-xl flex items-center justify-center text-white shadow-medium">
+                  <FaClock className="text-2xl" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-lg font-display font-bold text-gray-900 mb-2">
+                    Data Retention
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">We retain your personal and health information for as long as your account remains active</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">If you delete your account, we retain your data for up to 3 years thereafter for legal, regulatory, tax, and audit purposes, unless a longer period is required or permitted by law</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Prescription and medical records may be retained longer where required by applicable healthcare regulations</span>
                     </li>
                   </ul>
                 </div>
