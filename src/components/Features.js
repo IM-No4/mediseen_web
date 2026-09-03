@@ -10,7 +10,7 @@ const Features = () => {
       description: "All medicines are sourced directly from authorized distributors and verified pharmacies with quality assurance.",
       color: "from-primary-500 to-primary-600",
       bgColor: "bg-primary-50",
-      highlights: ["FDA Approved", "Quality Verified", "Genuine Products", "Safe & Secure"]
+      highlights: ["Authorized Sourcing", "Quality Verified", "Genuine Products", "Safe & Secure"]
     },
     {
       icon: <FaClock className="text-2xl" />,
@@ -228,8 +228,8 @@ const Features = () => {
                   <FaCertificate className="text-success-600 text-base" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-gray-900 text-sm">Certified & Licensed</h4>
-                  <p className="text-gray-600 text-xs">All services are fully certified and licensed by regulatory authorities</p>
+                  <h4 className="font-display font-bold text-gray-900 text-sm">Verified Partners</h4>
+                  <p className="text-gray-600 text-xs">We check the credentials of the pharmacies and professionals we work with</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

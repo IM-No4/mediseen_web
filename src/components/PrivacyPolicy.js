@@ -66,8 +66,8 @@ const PrivacyPolicy = () => {
               <div className="flex items-center space-x-3 p-4 bg-success-50 rounded-xl">
                 <FaLock className="text-success-600 text-lg" />
                 <div>
-                  <div className="font-semibold text-gray-900 text-sm">HIPAA Compliant</div>
-                  <div className="text-gray-600 text-xs">Following healthcare privacy standards</div>
+                  <div className="font-semibold text-gray-900 text-sm">Data Protection</div>
+                  <div className="text-gray-600 text-xs">Encrypted storage with restricted access</div>
                 </div>
               </div>
             </div>

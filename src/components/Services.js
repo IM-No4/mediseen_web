@@ -13,7 +13,7 @@ const Services = () => {
     {
       step: "02", 
       title: "Get Professional Treatment",
-      description: "Connect with verified healthcare professionals, licensed pharmacies, certified labs, and experienced medical staff for personalized care.",
+      description: "Connect with healthcare professionals, pharmacies, diagnostic labs, and experienced medical staff for personalized care.",
       icon: <FaUserMd className="text-3xl" />,
       color: "from-accent-500 to-accent-600"
     },
@@ -200,8 +200,8 @@ const Services = () => {
                   <FaShieldAlt className="text-primary-600 text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-gray-900 text-base">Licensed & Secure</h4>
-                  <p className="text-gray-600 text-sm">All services are licensed and follow strict security protocols</p>
+                  <h4 className="font-display font-bold text-gray-900 text-base">Safe & Secure</h4>
+                  <p className="text-gray-600 text-sm">Your data is protected with encryption and strict access controls</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">

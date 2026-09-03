@@ -168,8 +168,8 @@ const Testimonials = () => {
                   <FaShieldAlt className="text-success-600 text-lg" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-gray-900">Licensed & Verified</h4>
-                  <p className="text-gray-600 text-sm">All healthcare providers are licensed and verified by regulatory authorities</p>
+                  <h4 className="font-display font-bold text-gray-900">Verified Partners</h4>
+                  <p className="text-gray-600 text-sm">We check the credentials of the pharmacies and professionals we work with</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

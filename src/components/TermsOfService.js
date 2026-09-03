@@ -66,8 +66,8 @@ const TermsOfService = () => {
               <div className="flex items-center space-x-3 p-4 bg-success-50 rounded-xl">
                 <FaGavel className="text-success-600 text-lg" />
                 <div>
-                  <div className="font-semibold text-gray-900 text-sm">Compliant Service</div>
-                  <div className="text-gray-600 text-xs">Following healthcare regulations</div>
+                  <div className="font-semibold text-gray-900 text-sm">Clear & Fair Terms</div>
+                  <div className="text-gray-600 text-xs">Transparent policies for every service</div>
                 </div>
               </div>
             </div>
