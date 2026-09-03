@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaShieldAlt, FaClock, FaUserMd, FaTruck, FaStar, FaHeart, FaCheck, FaArrowRight, FaMobile, FaTablet, FaLaptop, FaHeadset, FaCertificate, FaGlobe } from 'react-icons/fa';
+import { MEDICAL_DISCLAIMER_FULL } from '../constants/medicalDisclaimer';
 
 const Features = () => {
   const features = [
@@ -176,6 +177,13 @@ const Features = () => {
               </div>
             ))}
           </div>
+
+          {/* Medical Disclaimer - directly below the Health Records/Smart
+              Reminders/Family Care claims above, per Google Play's Health
+              Content and Services policy requirement. */}
+          <p className="text-gray-500 text-xs leading-relaxed max-w-3xl mx-auto text-center mt-6">
+            {MEDICAL_DISCLAIMER_FULL}
+          </p>
         </div>
 
         {/* Statistics - Compact Progress Bar Style */}

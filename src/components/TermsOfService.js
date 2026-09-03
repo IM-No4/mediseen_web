@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFileContract, FaHandshake, FaShieldAlt, FaExclamationTriangle, FaCheckCircle, FaEnvelope, FaPhone, FaGavel, FaArrowLeft } from 'react-icons/fa';
+import { MEDICAL_DISCLAIMER_FULL } from '../constants/medicalDisclaimer';
 
 const TermsOfService = () => {
   return (
@@ -218,7 +219,10 @@ const TermsOfService = () => {
                 <FaExclamationTriangle className="text-warning-600 text-lg mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900 text-sm mb-1">Medical Disclaimer</h4>
-                  <p className="text-gray-600 text-sm">Medicoo is not a medical device and does not provide medical advice, diagnosis, or treatment. The app does not diagnose, treat, cure, or prevent any disease or medical condition. Content and features are provided for informational and convenience purposes only (such as ordering medicines and tracking self-reported wellness data) and are not a substitute for professional medical advice. Always consult a qualified healthcare provider for any medical decisions, and seek immediate medical attention in an emergency.</p>
+                  <p className="text-gray-600 text-sm">{MEDICAL_DISCLAIMER_FULL}</p>
+                  <Link to="/medical-disclaimer" className="text-primary-600 text-sm font-medium hover:underline mt-1 inline-block">
+                    Read the full Medical Disclaimer
+                  </Link>
                 </div>
               </div>
               

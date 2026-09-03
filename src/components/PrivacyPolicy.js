@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaShieldAlt, FaLock, FaEye, FaUser, FaDatabase, FaCookieBite, FaEnvelope, FaPhone, FaArrowLeft, FaExclamationTriangle, FaClock } from 'react-icons/fa';
+import { MEDICAL_DISCLAIMER_FULL } from '../constants/medicalDisclaimer';
 
 const PrivacyPolicy = () => {
   return (
@@ -81,8 +82,11 @@ const PrivacyPolicy = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm mb-1">Medical Disclaimer</h4>
                 <p className="text-gray-600 text-sm">
-                  Medicoo is not a medical device and does not provide medical advice, diagnosis, or treatment. The app does not diagnose, treat, cure, or prevent any disease or medical condition. Content and features (such as medicine ordering and self-reported health tracking) are provided for informational and convenience purposes only and are not a substitute for professional medical advice. Always consult a qualified healthcare provider for medical decisions, and seek immediate medical attention in an emergency.
+                  {MEDICAL_DISCLAIMER_FULL}
                 </p>
+                <Link to="/medical-disclaimer" className="text-primary-600 text-sm font-medium hover:underline mt-1 inline-block">
+                  Read the full Medical Disclaimer
+                </Link>
               </div>
             </div>
           </div>
@@ -188,15 +192,19 @@ const PrivacyPolicy = () => {
                   <ul className="space-y-2">
                     <li className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-600 text-sm">We retain your personal and health information for as long as your account remains active</span>
+                      <span className="text-gray-600 text-sm">We retain your account, profile, health and vitals data, medication reminders, family health records, prescriptions, and saved addresses for as long as your account remains active.</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-600 text-sm">If you delete your account, we retain your data for up to 3 years thereafter for legal, regulatory, tax, and audit purposes, unless a longer period is required or permitted by law</span>
+                      <span className="text-gray-600 text-sm">You can request account deletion at any time from the app (Profile &gt; Profile Details &gt; Delete Account). Deletion is not immediate: your account enters a 30-day grace period during which logging back in cancels the deletion and restores your account. If you do not log back in within 30 days, the personal data listed above is permanently deleted.</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-600 text-sm">Prescription and medical records may be retained longer where required by applicable healthcare regulations</span>
+                      <span className="text-gray-600 text-sm">AI Health Assistant conversation history is automatically deleted after 90 days, and limited to your 100 most recent conversations, regardless of account status.</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-warning-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Order and billing records are retained indefinitely, including after account deletion, as required for audit, tax, and legal recordkeeping (e.g. GST invoicing) - this data cannot be deleted on request.</span>
                     </li>
                   </ul>
                 </div>

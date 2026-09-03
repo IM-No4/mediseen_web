@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaApple, FaGooglePlay, FaHeart, FaShieldAlt, FaClock, FaDownload } from 'react-icons/fa';
 import logo from '../assets/icons/nameLogo.png';
+import { MEDICAL_DISCLAIMER_FULL } from '../constants/medicalDisclaimer';
 
 const Footer = () => {
   return (
@@ -156,6 +157,16 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Medical Disclaimer - visible site-wide, per Google Play's Health
+            Content and Services policy requirement (also linked as its own
+            page below). Not hidden behind a click - the full text sits
+            right here. */}
+        <div className="py-4 border-t border-gray-700">
+          <p className="text-gray-500 text-xs leading-relaxed max-w-4xl mx-auto text-center md:text-left">
+            {MEDICAL_DISCLAIMER_FULL}
+          </p>
+        </div>
+
         {/* Bottom Bar */}
         <div className="py-4 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
@@ -170,6 +181,8 @@ const Footer = () => {
                 <a href="/privacy-policy" className="hover:text-white transition-colors duration-300">Privacy Policy</a>
                 <span className="hidden md:inline">|</span>
                 <a href="/terms-of-service" className="hover:text-white transition-colors duration-300">Terms of Service</a>
+                <span className="hidden md:inline">|</span>
+                <a href="/medical-disclaimer" className="hover:text-white transition-colors duration-300">Medical Disclaimer</a>
               </div>
             </div>
             <div className="flex items-center space-x-2 text-gray-400 text-xs">
