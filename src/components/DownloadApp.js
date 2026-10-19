@@ -105,13 +105,18 @@ const DownloadApp = () => {
                     <div className="text-sm">App Store</div>
                   </div>
                 </button>
-                <button className="flex items-center justify-center space-x-3 bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors duration-300 shadow-medium">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.medicootech.medicoo&hl=en_US"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-center space-x-3 bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors duration-300 shadow-medium"
+                >
                   <FaGooglePlay className="text-xl" />
                   <div className="text-left">
                     <div className="text-xs">Get it on</div>
                     <div className="text-sm">Google Play</div>
                   </div>
-                </button>
+                </a>
               </div>
               
               {/* QR Code */}
