@@ -40,10 +40,10 @@ const Navbar = () => {
               Features
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            {/* <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
+            <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
               Download App
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-            </a> */}
+            </a>
             <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 relative group">
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
@@ -91,9 +91,9 @@ const Navbar = () => {
                 <a href="#features" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
                   Features
                 </a>
-                {/* <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
+                <a href="#download" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2 border-b border-gray-100">
                   Download App
-                </a> */}
+                </a>
                 <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300 py-2">
                   Contact
                 </a>
